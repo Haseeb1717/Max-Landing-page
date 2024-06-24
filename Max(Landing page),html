@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="Max.css">
+    <title>Max Landing page</title>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="navbar-brand">MAX.</div>
+        <div class="menu-toggle" id="menu-toggle"><i class="ri-menu-2-line"></i></div>
+        <div class="navbar-container">
+            <div class="navbar-links" id="navbar-links">
+                <a href="#">Max Enterprise</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="navbar-actions">
+                <button class="btn start">START</button>
+                <button class="btn get-started">GET STARTED</button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="container-main">
+            <div class="text-content" data-aos="zoom-in">
+                <h1 class="main-heading">Track insights across the web without having to read everything</h1>
+                <p class="main-paragraph">You tell Max AI what’s important to you and it flags the important insights from everywhere, including news sites, blogs, and newsletters</p>
+                <div class="main-sec-btn">
+                    <button class="btn start-main">Free trial</button>
+                    <button class="btn get-started-main">GET STARTED</button>
+                </div>
+            </div>
+            <div class="img-main" data-aos="fade-up">
+                <img src="imgsection-removebg-preview.png" alt="Background Image" class="main-img">
+            </div>
+            <div class="image-row" data-aos="fade-up">
+                <img src="airbnb-removebg-preview.png" alt="Image 1">
+                <img src="Hubspot-removebg-preview.png" alt="Image 2">
+                <img src="googlelogo-removebg-preview.png" alt="Image 3">
+                <img src="microsoft-logo-removebg-preview.png" alt="Image 4">
+                <img src="walmartlogo-removebg-preview.png" alt="Image 5">
+                <img src="Fedexlogo-removebg-preview.png" alt="Image 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="flex-layout">
+            <div class="flex-divs">
+                <div class="img-flex" data-aos="fade-right">
+                    <img src="imgsection-removebg-preview.png" alt="Background Image" class="img">
+                </div>
+                <div class="text-content-div" data-aos="fade-left">
+                    <p class="productivity">INCREASE YOUR PRODUCTIVITY</p>
+                    <h2 class="title-software">Software that your team will love</h2>
+                    <p class="app-para">Our application comes with a host of features that are designed to help increase your entire team's productivity.</p>
+                    <div class="correct">
+                        <p class="correction-icon"><i class="ri-checkbox-circle-line"></i>Project templates to kick-start a new project</p>
+                        <p class="correction-icon"><i class="ri-checkbox-circle-line"></i>Clone task to speed your time to action</p>
+                        <p class="correction-icon"><i class="ri-checkbox-circle-line"></i> Communicate and collaborate with your team and clients</p>
+                        <p class="correction-icon"><i class="ri-checkbox-circle-line"></i>Time tracking for the whole team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools">
+        <div class="text-content-for-tool" data-aos="fade-up">
+            <h2 class="tool-title">One tool to replace them all</h2>
+            <p class="tool-content">Forget about jumping from one tool to another, just to get the job done.<br><br>
+                With our CRM, you get all the tools that you need in a single, easy-to-use application.</p>
+            <div class="main-sec-btn-tool">
+                <button class="btn start-main-tool">CREATE ACCOUNT</button>
+                <button class="btn get-started-main-tool">See pricing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Management Section -->
+    <section class="project-manage">
+        <div class="main-project-div">
+            <div class="text-project-manage" data-aos="fade-right">
+                <p class="productivity">ADVANCED PROJECT MANAGEMENT</p>
+                <h2 class="title-software">Beat your project deadline</h2>
+                <p class="app-para">
+                    <p class="productivity">Our CRM gives you the right tools to manage, collaborate and complete your projects on time. Your clients will be happy and your team will be happy.</p>
+                </p>
+                <div class="correct">
+                    <p class="correction-icon"><i class="ri-checkbox-circle-line"></i>Project templates to kick-start a new project</p>
+                    <p class="correction-icon"><i class="ri-checkbox-circle-line"></i> Clone task to speed your time to action</p>
+                    <p class="correction-icon"><i class="ri-checkbox-circle-line"></i> Communicate and collaborate with your team and clients</p>
+                </div>
+            </div>
+            <div class="img-project-manage" data-aos="fade-left">
+                <img src="imgsection-removebg-preview.png" alt="Background Image" class="img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="card-section">
+        <div class="title-section">
+            <button class="feature-head">Our Features</button>
+            <p class="feature-text">All the important tools that you need</p>
+        </div>
+        <div class="card-container">
+            <div class="card" data-aos="fade-up">
+                <img src="icon-1p-removebg-preview.png" alt="Handshake" class="cardimg">
+                <h1 class="card-2nd-title">Tasks</h1>
+                <p class="card-2nd-p">Work through your task efficiently and intuitively.</p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <img src="ugoc-removebg-preview.png" alt="Handshake" class="cardimg">
+                <h1 class="card-2nd-title">Invoicing</h1>
+                <p class="card-2nd-p">Invoice your clients and accept payments easily.</p>
+            </div>
+            <div class="card" data-aos="fade-up">
+                <img src="estimates-removebg-preview.png" alt="Handshake" class="cardimg">
+                <h1 class="card-2nd-title">Estimates</h1>
+                <p class="card-2nd-p">Quickly send your clients estimates and proposals</p>
+            </div>
+        </div>
+        <div class="row-container">
+            <div class="card" data-aos="fade-right">
+                <img src="shot-removebg-preview.png" alt="Handshake" class="card-largeimg">
+                <h1 class="card-2nd-title">User Roles</h1>
+                <p class="card-2nd-p">Control the resources your team members can access</p>
+            </div>
+            <div class="nested-column">
+                <div class="card" data-aos="fade-left">
+                    <div class="flex">
+                        <div class="img-div"><img src="Helpdesk-removebg-preview.png" alt="Handshake" class="cardimg"></div>
+                        <div class="text">
+                            <h1 class="card-2nd-title">Help Desk</h1>
+                            <p class="card-2nd-p">Use the helpdesk to provide support for your clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-left">
+                    <div class="flex">
+                        <div class="img-div"><img src="timetrack-removebg-preview.png" alt="Handshake" class="cardimg"></div>
+                        <div class="text">
+                            <h1 class="card-2nd-title">Time Tracking</h1>
+                            <p class="card-2nd-p">Advanced time tracking so you never miss a minute of time spent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-container">
+            <div class="nested-column">
+                <div class="card" data-aos="fade-right">
+                    <div class="flex">
+                        <div class="img-div"><img src="remotely-removebg-preview.png" alt="Handshake" class="cardimg"></div>
+                        <div class="text">
+                            <h1 class="card-2nd-title">Work From Anywhere</h1>
+                            <p class="card-2nd-p">Your team can now easily connect and work from anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-right">
+                    <div class="flex">
+                        <div class="img-div"><img src="Knowledge-removebg-preview.png" alt="Handshake" class="cardimg"></div>
+                        <div class="text">
+                            <h1 class="card-2nd-title">Knowledgebase</h1>
+                            <p class="card-2nd-p">Create engaging articles easily share information with all your stakeholders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left">
+                <img src="subscription-removebg-preview.png" alt="Handshake" class="card-largeimg">
+                <h1 class="card-2nd-title">Subscriptions</h1>
+                <p class="card-2nd-p">Accept recurring payments via Stripe, using the subscription feature</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productivity Redefined Section -->
+    <section class="redefined">
+        <div class="section-redefined-container" data-aos="fade-up">
+            <h1 class="redefined-title">Productivity Redefined</h1>
+            <p class="redefined-p">The complete productivity tool for your business</p>
+            <div class="buttons-line">
+                <button class="btntsk1">Task</button>
+                <button class="btntsk">Invoices</button>
+                <button class="btntsk">Support Tickets</button>
+                <button class="btntsk">Clients</button>
+                <button class="btntsk">Leads</button>
+                <button class="btntsk">Knowledge</button>
+            </div>
+            <div class="img-redefined" data-aos="fade-up">
+                <img src="redefined-img.png" class="redefined-img-1">
+            </div>
+            <div class="main-sec-btn-tool" id="last-btns">
+                <button class="btn start-main-tool">CREATE ACCOUNT</button>
+                <button class="btn get-started-main-tool">See pricing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container flex footer-container" data-aos="fade-up">
+            <h2>MAX.</h2>
+            <div class="link-column flex">
+                <h4>Product</h4>
+                <a href="#" class="hover-link">Store</a>
+                <a href="#" class="hover-link">Developer</a>
+                <a href="#" class="hover-link">Teams</a>
+                <a href="#" class="hover-link">Pro</a>
+                <a href="#" class="hover-link">Api Docs</a>
+                <a href="#" class="hover-link">Pricing</a>
+                <a href="#" class="hover-link">Changing</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Company</h4>
+                <a href="#" class="hover-link">Career</a>
+                <a href="#" class="hover-link">Manifesto</a>
+                <a href="#" class="hover-link">Privacy Policy</a>
+                <a href="#" class="hover-link">Terms of services</a>
+                <a href="#" class="hover-link">DPA</a>
+                <a href="#" class="hover-link">Press kit</a>
+                <a href="#" class="hover-link">Contact</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Community</h4>
+                <a href="#" class="hover-link">Community stories</a>
+                <a href="#" class="hover-link">Slack</a>
+                <a href="#" class="hover-link">GitHub</a>
+                <a href="#" class="hover-link">Dribbble</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
