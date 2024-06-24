@@ -3,7 +3,7 @@ A responsive landing page with amazing UI in HTML, CSS, and JavaScript.
 
 Welcome to my project! Here is a video demo of landing pege:
 
-![Max Demo](https://github.com/Haseeb1717/Max-Landing-page/assets/demo.png)
+![Max Demo](https://github.com/Haseeb1717/Max-Landing-page/demo/demo.png)
 
 ## Features
 - Sleek Design: The landing page boasts a modern and professional design to engage visitors effectively.
